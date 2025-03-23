@@ -125,7 +125,7 @@ void* client_thread(void* arg) {
     
     // Simular uso dos recursos
     unsigned seed = time(NULL);
-    sleep(rand_r(&seed) % 5 + 1);
+    sleep(rand(&seed) % 5 + 1);
     
     release_resources(type);
     return NULL;
