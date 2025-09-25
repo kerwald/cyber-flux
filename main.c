@@ -5,6 +5,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <stdbool.h>
+#include <stdint.h>
 #include <math.h>
 #include <stdbool.h>
 
@@ -71,7 +72,7 @@ double tempoAtual() {
 }
 
 // Função para obter tempo atual em nanossegundos
-long tempoAtualNs() {
+uint64_t tempoAtualNs() {
     struct timespec ts;
     clock_gettime(CLOCK_MONOTONIC, &ts);
     return ts.tv_sec * 1e9 + ts.tv_nsec;
