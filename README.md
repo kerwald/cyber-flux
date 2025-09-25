@@ -67,3 +67,33 @@ Este projeto utiliza a biblioteca `pthread`, então é necessário linká-la dur
     ```
 
 A simulação irá rodar por um tempo pré-determinado no código (equivalente a 8 horas de funcionamento do cyber café, acelerado pela `SIMULATION_TIME_RATIO`) e, ao final, exibirá o relatório com as estatísticas.
+
+## 📊 Exemplo de Saída (Relatório Final)
+=== RELATÓRIO FINAL ===  
+Total de clientes: 155  
+Clientes atendidos: 108  
+Clientes não atendidos: 47  
+Tempo médio de espera: 0.94 horas  
+Utilização de recursos:  
+  PCs: 108  
+  VRs: 61  
+  Cadeiras: 61  
+Tempo total de uso dos recursos:  
+  Uso total por tipo de recurso:  
+    PCs: 67.21 horas  
+    VRs: 39.34 horas  
+    Cadeiras: 39.34 horas  
+  
+  Uso total por tipo de cliente:  
+    PCs:  
+      Gamer: 19.12 horas  
+      Freelancer: 20.22 horas  
+      Estudante: 27.88 horas  
+    VRs:  
+      Gamer: 19.12 horas  
+      Freelancer: 20.22 horas  
+    Cadeiras:  
+      Gamer: 19.12 horas  
+      Freelancer: 20.22 horas  
+
+      
